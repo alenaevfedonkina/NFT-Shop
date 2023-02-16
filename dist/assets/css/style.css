@@ -353,3 +353,150 @@ h1 {
 .s-li {
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 575px) {
+    .title__min {
+        font-size: 20px;
+    }
+
+    .title__max {
+        font-size: 40px;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .title__poppins, .boild {
+        font-size: 12px;
+    }
+
+    .transp {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .ellipse, .sections__img {
+        -webkit-transform: translate(-69px, -75px);
+        -ms-transform: translate(-69px, -75px);
+        transform: translate(-69px, -75px);
+        height: 130px;
+        width: 112px;
+    }
+
+    .img1 {
+        width: 120px;
+    }
+
+    .tit {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .wrapp-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .card-pics {
+        margin-bottom: 20px;
+    }
+
+    #sub-inp {
+        height: 38px;
+        width: 170px;
+        font-size: 15px;
+    }
+
+    .btn-sub {
+        height: 42px;
+        width: 86px;
+        -webkit-transform: translate(-37px, -1px);
+        -ms-transform: translate(-37px, -1px);
+        transform: translate(-37px, -1px);
+    }
+
+    .ellipse-blue {
+        height: 100px;
+        width: 100px;
+        -webkit-transform: translate(91px, 14px);
+        -ms-transform: translate(91px, 14px);
+        transform: translate(91px, 14px);
+    }
+
+    .img2 {
+        width: 95px;
+    }
+
+    .wrapp-ellip {
+        -webkit-transform: translate(-23px, -22px);
+        -ms-transform: translate(-23px, -22px);
+        transform: translate(-23px, -22px);
+    }
+
+    .img4 {
+        -webkit-transform: translate(108px, -13px);
+        -ms-transform: translate(108px, -13px);
+        transform: translate(108px, -13px);
+        width: 80px;
+    }
+
+    .ellipse-pink {
+        height: 50px;
+        width: 50px;
+        -webkit-transform: translate(54px, 5px);
+        -ms-transform: translate(54px, 5px);
+        transform: translate(54px, 5px);
+    }
+
+    .img3 {
+        width: 50px;
+    }
+
+    .inpus {
+        margin-bottom: 50px;
+    }
+
+    .wr-t {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .img_end, .nft_card {
+        width: 302px;
+    }
+
+    .text_join {
+        font-size: 13px;
+    }
+
+    .icons {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        width: 12px;
+    }
+
+    .foot_list {
+        font-size: 12px;
+    }
+
+    .wr-icons {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
