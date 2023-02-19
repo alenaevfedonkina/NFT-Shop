@@ -319,9 +319,6 @@ h1 {
     width: 55px;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.35);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -482,21 +479,28 @@ h1 {
     }
 
     .icons {
-        height: 20px;
-        width: 20px;
-        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+        margin: 6px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.35);
+        border-radius: 5px;
     }
 
-    .icon {
-        width: 10px;
+    .icons img {
+        max-width: 28px;
+        max-height: 28px;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .foot_list {
         font-size: 12px;
-    }
-
-    .wr-icons {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     }
 }
