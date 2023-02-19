@@ -262,15 +262,15 @@ h1 {
     width: 280px;
     border-radius: 250px;
     background: #E87993;
-    -webkit-transform: translate(-297px, -186px);
-    -ms-transform: translate(-297px, -186px);
-    transform: translate(-297px, -186px);
+    -webkit-transform: translate(-297px, -50px);
+    -ms-transform: translate(-297px, -50px);
+    transform: translate(-297px, -50px);
 }
 
 .img4 {
-    -webkit-transform: translate(271px, -147px);
-    -ms-transform: translate(271px, -147px);
-    transform: translate(271px, -147px);
+    -webkit-transform: translate(76px, -217px);
+    -ms-transform: translate(76px, -217px);
+    transform: translate(76px, -217px);
 }
 
 .wr-t {
@@ -311,6 +311,7 @@ h1 {
     margin-right: 15px;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.35);
+    display: inline-block;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -351,6 +352,9 @@ h1 {
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
 }
 
 .f-li-bold {
@@ -388,16 +392,19 @@ h1 {
         align-items: flex-start;
     }
 
-    .ellipse, .sections__img {
-        -webkit-transform: translate(-69px, -75px);
-        -ms-transform: translate(-69px, -75px);
-        transform: translate(-69px, -75px);
+    .sections__img {
+        -webkit-transform: translate(-69px, -95px);
+        -ms-transform: translate(-69px, -95px);
+        transform: translate(-69px, -95px);
+    }
+
+    .ellipse {
         height: 130px;
-        width: 112px;
+        width: 94px;
     }
 
     .img1 {
-        width: 120px;
+        width: 113px;
     }
 
     .tit {
@@ -413,6 +420,9 @@ h1 {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .card-pics {
@@ -446,15 +456,15 @@ h1 {
     }
 
     .wrapp-ellip {
-        -webkit-transform: translate(-23px, -22px);
-        -ms-transform: translate(-23px, -22px);
-        transform: translate(-23px, -22px);
+        -webkit-transform: translate(-23px, 70px);
+        -ms-transform: translate(-23px, 70px);
+        transform: translate(-23px, 70px);
     }
 
     .img4 {
-        -webkit-transform: translate(89px, -46px);
-        -ms-transform: translate(89px, -46px);
-        transform: translate(89px, -46px);
+        -webkit-transform: translate(100px, -19px);
+        -ms-transform: translate(100px, -19px);
+        transform: translate(100px, -19px);
         width: 80px;
     }
 
@@ -492,7 +502,6 @@ h1 {
     .icons {
         width: 25px;
         height: 25px;
-        display: inline-block;
     }
 
     .icons img {
