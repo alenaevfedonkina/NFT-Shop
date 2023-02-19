@@ -267,10 +267,11 @@ h1 {
     transform: translate(-297px, -50px);
 }
 
-.img4 {
+.ellipse-yellow {
     -webkit-transform: translate(76px, -217px);
     -ms-transform: translate(76px, -217px);
     transform: translate(76px, -217px);
+    width: 80px;
 }
 
 .wr-t {
@@ -462,10 +463,13 @@ h1 {
     }
 
     .img4 {
-        -webkit-transform: translate(100px, -19px);
-        -ms-transform: translate(100px, -19px);
-        transform: translate(100px, -19px);
         width: 80px;
+    }
+
+    .ellipse-yellow {
+        -webkit-transform: translate(22px, 60px);
+        -ms-transform: translate(22px, 60px);
+        transform: translate(22px, 60px);
     }
 
     .ellipse-pink {
@@ -500,16 +504,20 @@ h1 {
     }
 
     .icons {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
     .icons img {
-        max-width: 12px;
-        max-height: 12px;
+        max-width: 15px;
+        max-height: 15px;
     }
 
     .foot_list {
         font-size: 12px;
+    }
+
+    .text_join {
+        margin-bottom: 0;
     }
 }
