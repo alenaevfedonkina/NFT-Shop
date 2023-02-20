@@ -373,7 +373,7 @@ h1 {
     }
 
     .title__max {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .title {
@@ -394,14 +394,18 @@ h1 {
     }
 
     .sections__img {
-        -webkit-transform: translate(-69px, -95px);
-        -ms-transform: translate(-69px, -95px);
-        transform: translate(-69px, -95px);
+        -webkit-transform: translate(-119px, -2px);
+        -ms-transform: translate(-119px, -2px);
+        transform: translate(-119px, -2px);
+    }
+
+    .letter {
+        width: 142px;
     }
 
     .ellipse {
         height: 130px;
-        width: 94px;
+        width: 105px;
     }
 
     .img1 {
