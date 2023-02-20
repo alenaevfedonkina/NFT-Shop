@@ -368,6 +368,10 @@ h1 {
 }
 
 @media screen and (max-width: 575px) {
+    .sections_all {
+        width: 100%;
+    }
+
     .title__min {
         font-size: 20px;
     }
@@ -471,9 +475,9 @@ h1 {
     }
 
     .ellipse-yellow {
-        -webkit-transform: translate(22px, 60px);
-        -ms-transform: translate(22px, 60px);
-        transform: translate(22px, 60px);
+        -webkit-transform: translate(121px, -29px);
+        -ms-transform: translate(121px, -29px);
+        transform: translate(121px, -29px);
     }
 
     .ellipse-pink {
